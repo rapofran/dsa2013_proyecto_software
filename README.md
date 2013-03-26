@@ -50,7 +50,6 @@ lib/vendor/symfony
 
 And run this commands
 ```
-lib/vendor/symfony
 php symfony doctrine:build --model
 php symfony doctrine:build --sql
 php symfony doctrine:build-all --and-load
