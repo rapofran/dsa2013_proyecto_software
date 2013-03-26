@@ -52,7 +52,7 @@ And run this commands
 ```
 php symfony doctrine:build --model
 php symfony doctrine:build --sql
-php symfony doctrine:build-all --and-load
+php symfony doctrine:build --all --and-load
 ```
 
 Now you should be able to get into 
