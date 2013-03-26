@@ -1,7 +1,7 @@
 Desarrollo Seguro de Aplicaciones - Trabajo de Proyecto de Software
 -----------
 
-This application is a CMS (Content Management System), it uses Doctrine, MySQL and PHP.
+This application is a CMS (Content Management System), it uses Symfony 1.4.20, Doctrine, MySQL and PHP.
 
 Installation
 ------------
