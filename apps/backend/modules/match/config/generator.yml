@@ -1,0 +1,41 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Match
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          match
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   nothing
+
+    config:
+      actions: ~
+      fields:  
+        team_one: { label: "Equipo Visitante" }
+        team_two: { label: "Equipoa Local" }
+        date:     { label: "Fecha",  date_format: dd/MM/yyyy }
+      list:    
+        title: Partidos
+        display: [team_one,team_two,date]
+        actions:       
+          _new:  { label: "Agregar Partidos" }
+        batch_actions: {}
+        object_actions: 
+          _edit: { label: "Editar" }
+      form:    ~
+      edit:    
+        title: Editar Partidos
+        actions: 
+          _save:    { label: "Guardar" }
+          _list:    { label: "Volver" }
+          _delete:  { label: "Eliminar" }
+      new:     
+        title: Agregar Partidos
+        actions: 
+          _list:    { label: "Volver" }
+          _save:    { label: "Guardar" }
+          _save_and_add: { label: "Guardar y Agregar otro"}

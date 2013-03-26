@@ -1,0 +1,42 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Item
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          item
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   nothing
+
+    config:
+      actions: 
+      fields:  
+        title:                { label: "Titulo" }
+        short_description:    { label: "Descripción Corta" }
+        long_description:     { label: "Descripción Completa" }
+        rss:                  { label: "Publicar en RSS" }
+        created_at:           { label: "Creado" }
+        updated_at:           { label: "Actualizado" }
+        type_title:           { label: "Tipo de Articulo"}
+        item_type_id:         { label: "Tipo de Articulo"}
+      list: 
+        title: Articulos   
+        display: [title,short_description,type_title,rss,created_at,updated_at]
+        params: | %%type_title%%
+        actions: 
+          _new:     { label: "Nuevo"}
+        batch_actions:
+          _delete:  { label: "Eliminar"}
+        object_actions: 
+          _edit:    { label: "Editar"}
+          _delete:  { label: "Eliminar"}
+      filter:  ~
+      form:    ~
+      edit:    
+        title: Editar Articulo  
+      new:     
+        title: Nuevo Articulo

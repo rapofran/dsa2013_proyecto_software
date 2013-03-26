@@ -1,0 +1,7 @@
+Itemtype:
+  n1:
+    id: 1
+    name: 'Noticia'
+  n2:
+    id: 2
+    name: 'Evento'

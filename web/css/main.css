@@ -1,0 +1,22 @@
+.sf_admin_list {
+  padding-right: 0px !important;
+}
+
+input[type=text] {
+  width: 40% !important;
+}
+
+#datepicker{
+	width: 70px !important;
+}
+
+#datepicker2{
+	width: 70px !important;
+}
+
+#form_fechas{
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid;
+  width: 150px;
+}

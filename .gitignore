@@ -1,0 +1,9 @@
+log/*
+cache/*
+web/uploads/*
+config/databases.yml
+lib/vendor/symfony/*
+data/sql
+lib/filter/doctrine/base/Base*
+lib/form/doctrine/base/Base*
+lib/model/doctrine/base/Base*

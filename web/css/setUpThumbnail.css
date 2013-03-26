@@ -1,0 +1,8 @@
+.sf_admin_form_field_url_picture img{
+  width: 100px;
+  height: 100px;
+}
+
+#member_url_picture{
+  display: none;
+}

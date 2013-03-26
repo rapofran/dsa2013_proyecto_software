@@ -1,0 +1,89 @@
+Item:
+  Item_1:
+    id: 1
+    title: 'Nuevos integrantes se suman al club'
+    short_description: 'Las tareas de de búsqueda del testigo clave de la causa Etchecolatz, se reanudarán en una zona cercana a la estación de trenes de Parque Pereyra, tras'
+    long_description: "Las tareas de de búsqueda de Jorge Julio López, el testigo clave de la causa Etchecolatz, se reanudarán mañana en una zona cercana a la estación de trenes de Parque Pereyra Iraola, tras la aparición de un nuevo testigo en la causa, de acuerdo a lo informado por Rubén López, el hijo del albañil. \n\nEl hijo del sobreviviente de la última dictadura militar desaparecido hace cuatro años explicó a la prensa que \"a partir del testimonio del nuevo testigo, la justicia federal platense dispuso un nuevo rastrillaje\". \n\n\"La expectativa es la misma de siempre, esperaremos que se busque y luego evaluaremos\", dijo Rubén a esta agencia y detalló que \"por la información que tengo, el nuevo testigo se presentó en la Justicia en forma espontánea y a partir de la difusión que alcanzó la búsqueda de estos días\". \n\nEl testimonio surgió luego de que los investigadores dieran por terminada el viernes, sin resultados positivos, la búsqueda en los alrededores de la estación de trenes de Pereyra, señalada por otro testigo como el lugar en el que habría sido enterrado el cuerpo de López. \n\nFuentes judiciales confirmaron que el nuevo testigo aseguró recordar que \"hace unos cuatro años cuando se produjo la desaparición de López, vio movimientos extraños en una zona cercana a dónde se rastrilló hasta ayer\" y precisaron que el hombre \"delimitó una zona cercana también a la estación de trenes de Pereyra\". "
+    item_type_id: 1
+    rss: false
+    created_at: '2011-02-09'
+    updated_at: '2011-02-09'
+    sf_guard_user_id: 1
+    click: 0
+  Item_2:
+    id: 2
+    title: 'Se realizará un asado en el lobby del club'
+    short_description: "El incendio desatado hoy en una precaria vivienda de Lisandro Olmos tuvo el trágico desenlace de dos víctimas fatales, ambas menores de edad.\n\nPor cau"
+    long_description: 'Tras recibir un alerta en el 911, acudieron los bomberos de Olmos, recibiendo ayuda también del cuartel de Los Hornos. En el lugar se encontraba trabajando personal de la Comisaría 15ta. con jurisdicción en el hecho.'
+    item_type_id: 2
+    rss: true
+    created_at: '2011-02-08'
+    updated_at: '2011-02-08'
+    sf_guard_user_id: 2
+    click: 0
+  Item_3:
+    id: 3
+    title: 'Llegamos a la final del 2011'
+    short_description: 'Se estrena el nuevo filme de Woody Allen'
+    long_description: 'Se estrena el nuevo filme de Woody Allen, en la que vuelve a reflexionar sobre el amor y las parejas De la mano de una historia que lleva su sello per'
+    item_type_id: 1
+    rss: true
+    created_at: '2011-02-01'
+    updated_at: '2011-02-01'
+    sf_guard_user_id: 1
+    click: 0
+  Item_10:
+    id: 4
+    title: 'EL club esta de fiesta'
+    short_description: 'El Matador venció hoy al Rojo por 1 a 0 en el pardido pendiente de la décimo octava fecha del Torneo Apertura 2010. Stracqualursi, autor del tanto, se'
+    long_description: "La siguiente es la síntesis del partido:\n   \nIndependiente 0 - Tigre 1.\n   \nEstadio: Independiente.\n   \nArbitro: Juan Pablo Pompei.\n   \nIndependiente: Hilario Navarro; Nicolás Cabrera, Carlos  Matheu, Julián Velázquez, Maximiliano Velázquez; Cristian  Pellerano, Roberto Battión, Lucas Villafañez, Leandro Gracián;  Patricio Rodríguez y Facundo Parra. \nDT: Antonio Mohamed."
+    item_type_id: 2
+    rss: true
+    created_at: '2011-02-01'
+    updated_at: '2011-02-01'
+    sf_guard_user_id: 2
+    click: 0
+  Item_11:
+    id: 5
+    title: 'Se suman nuevos jugadores categoria '89'
+    short_description: 'A los 17 años, Ree Dolly se propone encontrar a su padre, quien puso su casa para asegurar su fianza y luego desapareció sin rastro.'
+    long_description: 'A los 17 años, Ree Dolly se propone encontrar a su padre, quien puso su casa para asegurar su fianza y luego desapareció sin rastro. Debiendo enfrentar el riesgo de llegar a perder su hogar y embarcándose en los bosques Ozark, Ree desafía el proscrito código de silencio de sus parientes y arriesga su vida para salvar a su familia. El filme fue la sorpresa entre las candidaturas a los premios Oscar al recibir cuatro nominaciones. Director: Debra Granik. Guión: Debra Granik. Con Jennifer Lawrence, John Hawkes, Kevin Breznahan, Dale Dickey y Garret Dillahunt. '
+    item_type_id: 1
+    rss: true
+    created_at: '2011-02-07'
+    updated_at: '2011-02-07'
+    sf_guard_user_id: 2
+    click: 0
+  Item_12:
+    id: 6
+    title: 'El lunes 27/6 se realizará un evento'
+    short_description: 'Especial para EL DIA de National Geographic '
+    long_description: "Primero la NASA \"bombardeó\" la luna en busca de agua. Ahora va a mandar una nave que se zambulla en el sol para tomar muestras directas de nuestra estrella por primera vez.\n\nRecientemente, los administradores de la misión de la Solar Probe Plus hicieron los retoques finales para los experimentos científicos que se llevarán a cabo en la nave espacial que tiene el tamaño de un automóvil.\n\nLa sonda Solar Probe Plus, que se lanzará antes de que termine el año 2018, atravesará repetidamente la atmósfera exterior súpercaliente del sol, llamada corona, acercándose a más de 6 millones de kilómetros de la ardiente superficie de la estrella."
+    item_type_id: 2
+    rss: true
+    created_at: '2011-02-17'
+    updated_at: '2011-02-17'
+    sf_guard_user_id: 2
+    click: 0
+  Item_13:
+    id: 7
+    title: 'Confirman solicitud de vecas'
+    short_description: 'Confirman detención de acusado de asesinar a un nene de 11 años'
+    long_description: "Se conoció hoy que fue confirmada la detención del menor de 17 años acusado de degollar a un nene de 11 años y herir de gravedad a otro -hermano de la víctima- de 12 años.\nAsí lo dispuso la jueza Inés Ciro al darle curso al pedido del fiscal Juan Benavídez.\nEl presunto autor del sangriento episodio se encuentra en el Instituto de Reubicación de Menores de nuestra ciudad.\nBajo los cargos de homicidio y tentativa de homicidio, el menor de 17 años, oriundo de misiones, se negó a prestar declaración indagatoria."
+    item_type_id: 1
+    rss: true
+    created_at: '2011-02-05'
+    updated_at: '2011-02-05'
+    sf_guard_user_id: 2
+    click: 0
+  Item_14:
+    id: 8
+    title: 'Nuevo DT !'
+    short_description: 'El dirigente de la Uatre, integrante de las 62 Organizaciones y cercano a Duhalde, fue apresado por orden de Oyarbide'
+    long_description: "El titular del sindicato de peones rurales (UATRE), Gerónimo "Momo" Venegas, fue detenido hoy por orden del juez Norberto Oyarbide, en el marco de la causa que investiga el tráfico de medicamentos adulterados y desde el gremio denunciaron que hubo una intencionalidad "política"."
+    item_type_id: 1
+    rss: true
+    created_at: '2011-02-11'
+    updated_at: '2011-02-11'
+    sf_guard_user_id: 2
+    click: 0

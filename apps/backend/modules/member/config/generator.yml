@@ -1,0 +1,54 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Member
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          member
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   nothing
+
+    config:
+      actions:
+      fields:  
+        name:         { label: "Nombre" }
+        telephone:    { label: "Telefono" }
+        celphone:     { label: "Celular" }
+        email:        { label: "Email" }
+        birthday:     { label: "Fecha de Nacimiento", date_format: dd/MM/yyyy }
+        category:     { label: "Categoria" }
+        url_picture:  { label: "Foto de Perfil" }
+        member_type_title: { label: "Tipo de Miembro" }
+        member_type_id: { label: "Tipo de Miembro" }
+        article_link: { label: Article }
+      list:    
+        title: Miembros
+        display: [name,telephone,celphone,email,birthday,category,member_type_title,_article_link]
+        params: | %%member_type_title%%
+        actions: 
+          _new:     { label: "Nuevo"}
+        batch_actions:
+          _delete:  { label: "Eliminar"}
+        object_actions: 
+          _edit:    { label: "Editar"}
+          _delete:  { label: "Eliminar"}
+      filter:  ~
+      form:    ~
+      form:    ~
+      edit:    
+        title: Editar Miembro
+        actions: 
+          _delete:  { label: "Eliminar" }
+          _list:    { label: "Volver" }
+          _save:    { label: "Guardar" }
+      new:     
+        title: Agregar Partidos
+        actions: 
+          _delete:  { label: "Eliminar" }
+          _list:    { label: "Volver" }
+          _save:    { label: "Guardar" }
+    

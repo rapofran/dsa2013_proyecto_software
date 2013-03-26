@@ -1,0 +1,22 @@
+Match:
+  m1:
+    id: 1
+    team_one: Ensenada Rugby
+    team_two: Gimnacia
+    date: '2011-12-12'
+  m2:
+    id: 2
+    team_one: Club Albaros
+    team_two: Gimnacia
+    date: '2010-12-12'
+  m3:
+    id: 3
+    team_one: Ensenada Rugby
+    team_two: Berazategui
+    date: '2011-10-1'
+  m4:
+    id: 4
+    team_one: Ensenada Rugby
+    team_two: Berazategui
+    date: '2011-12-12'
+

@@ -1,0 +1,7 @@
+Config:
+  n1:
+    id: 1
+    title: 'Ensenada Rugby Club | Sitio'
+    enabled: true
+    message: 'Sitio deshabilitado. Disculpe las molestias'
+    pagination: 20

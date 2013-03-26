@@ -1,0 +1,71 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sfAssetsLibrary:
+    upload_dir: uploads/assets/images
+    check_type:  true              
+    types:                              
+      image:   image
+  sf_admin_dash:
+    web_dir:                      /sfAdminDashPlugin
+    image_dir:                    /sfAdminDashPlugin/images/icons/
+    default_image:                config.png
+    resize_mode:                  thumbnail
+    site:                         Administrador
+    include_path:                 true
+    include_jquery_no_conflict:   false
+    logout:                       true
+    login_route:                  @sf_guard_signin
+    logout_route:                 @sf_guard_signout
+    categories:
+      Menu:
+        items:
+            Volver al sitio:
+              url:          frontend
+              image:        back.png
+              credentials:  [[[[admin, editor]],admin]]
+            Items:
+              url:          item
+              image:        addedit.png
+              credentials:  [[[[admin, editor]],admin]]
+            Administrador de imagenes:
+              url:          manager
+              image:        mediamanager.png
+              credentials:  [[[[admin, editor]],admin]]
+            El Club:
+              url:          club
+              image:        checkin.png
+              credentials:  [[[[admin, editor]],admin]]
+            Partidos:
+              url:          partidos
+              image:        rugby-partidos.png
+              credentials:  [[[[admin, editor]],admin]]
+            Miembros:
+              url:          member
+              image:        rugby_icon.png
+              credentials:  [[[[admin, editor]],admin]]
+            Configuracion del Sitio:
+              url:          configuracion
+              image:        config.png
+              credentials:  [admin]
+            Usuarios:
+              url:          usuarios
+              image:        users.png
+              credentials:  [admin]
+            Video Tutoriales:
+              url:          video
+              image:        templatemanager.png
+              credentials:  [[[[admin, editor]],admin]]
+            Graficos de Estadisticas:
+              url:          graficos
+              image:        grafica.png
+              credentials:  [admin]
+
+
+
+
+
+
+

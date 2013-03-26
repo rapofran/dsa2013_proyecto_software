@@ -1,0 +1,13 @@
+MemberType:
+  MemberType_1:
+    id: 1
+    name: Presidente
+  MemberType_2:
+    id: 2
+    name: Administracion
+  MemberType_3:
+    id: 3
+    name: Coordinacion de Rugby
+  MemberType_4:
+    id: 4
+    name: Jugador

@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Config
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          config
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   nothing
+
+    config:
+      actions: ~
+      fields:  
+        title:     { label: "Titulo del Sitio" }
+        enabled:   { label: "Sitio Habilitado" }
+        message:   { label: "Mensaje Deshabilitado" }
+        pagination:   { label: "Cantidad de items por pagina" }
+      list:    
+        title: Configuracion del Sitio
+        display: [title,enabled,message]
+        actions:        {}
+        batch_actions:  {}
+        object_actions: 
+          _edit: { label: "Editar" }
+      filter:  { class: false }
+      form:    ~
+      edit:    
+        title: Editar Configuracion del Sitio
+        actions: 
+          _save: { label: "Guardar" }
+          _list: { label: "Volver" }
+      new:     ~

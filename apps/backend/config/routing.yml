@@ -1,0 +1,93 @@
+config:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Config
+    module:               config
+    prefix_path:          /config
+    column:               id
+    with_wildcard_routes: true
+
+
+member:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Member
+    module:               member
+    prefix_path:          /miembros
+    column:               id
+    with_wildcard_routes: true
+
+match:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Match
+    module:               match
+    prefix_path:          /match
+    column:               id
+    with_wildcard_routes: true
+
+stuff:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Stuff
+    module:               club
+    prefix_path:          /club
+    column:               id
+    with_wildcard_routes: true
+
+item:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Item
+    module:               article
+    prefix_path:          /article
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: sfAdminDash, action: dashboard }
+
+article:
+  url: /articulos
+  param: { module: article, action: index }
+
+manager:
+  url: /imageManager
+  param: { module: gallery, action: index }
+
+club:
+  url: /club
+  param: { module: club, action: index }
+
+partidos:
+  url: /partidos
+  param: { module: match, action: index }
+
+configuracion:
+  url: /configuracion
+  param: { module: config, action: index }
+
+video:
+  url: /video
+  param: { module: tutorial, action: index }
+
+updateTitulo:
+  url: /photos/updateTitle
+  param: { module: photos, action: updateTitle }
+
+usuarios:
+  url: /usuarios
+  param: { module: sfGuardUser, action: index }
+
+graficos:
+  url: /graficos
+  param: { module: graficos, action: index }
+
+frontend:
+  url: /back
+  param: { module: sfAdminDash, action: back }

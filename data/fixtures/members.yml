@@ -1,0 +1,131 @@
+Member:
+  m1:
+    id: 1
+    name: Francisco Raposeiras
+    telephone: fijo 12344565
+    celphone: 2332423
+    email: rapo@rapo.com
+    birthday: 
+    category:
+    url_picture:
+    member_type_id: 1
+  m2:
+    id: 2
+    name: Martin Acosta
+    telephone: fijo 12344565
+    celphone: 2332423
+    email: tincho@tincho.com
+    birthday: 
+    category:
+    url_picture:
+    member_type_id: 3
+  m3:
+    id: 3
+    name: Pepe Gonzalez
+    telephone: fijo 12344565
+    celphone: 2332423
+    email: pepe@pepe.com
+    birthday: 
+    category:
+    url_picture:
+    member_type_id: 2
+  m4:
+    id: 4
+    name: Analia Perez Gonzalez
+    telephone: fijo 12344565
+    celphone: 2332423
+    email: pepe@pepe.com
+    birthday: 
+    category:
+    url_picture:
+    member_type_id: 2
+  m5:
+    id: 5
+    name: Alfonso Marcos
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1998-12-12'
+    category: 'M-14'
+    url_picture:
+    member_type_id: 4
+  m6:
+    id: 6
+    name: Pedro Gonzales
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1998-12-12'
+    category: 'M-14'
+    url_picture:
+    member_type_id: 4
+  m7:
+    id: 7
+    name: Nicolas Everry
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1997-12-12'
+    category: 'M-14'
+    url_picture:
+    member_type_id: 4
+  m8:
+    id: 8
+    name: Agustin Clot
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1995-12-12'
+    category: 'M-16'
+    url_picture:
+    member_type_id: 4
+  m9:
+    id: 9
+    name: Alan Herrero
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1998-12-12'
+    category: 'M-18'
+    url_picture:
+    member_type_id: 4
+  m10:
+    id: 10
+    name: Gonzalo Robledo
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1998-12-12'
+    category: 'M-14'
+    url_picture:
+    member_type_id: 4
+  m11:
+    id: 11
+    name: Roger Muller
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1998-12-12'
+    category: 'M-13'
+    url_picture:
+    member_type_id: 4
+  m12:
+    id: 12
+    name: Evangeliona Fligiomeni
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1998-12-12'
+    category: 'M-19'
+    url_picture:
+    member_type_id: 4
+  m13:
+    id: 13
+    name: Juan Perez
+    telephone: 
+    celphone: 
+    email: 
+    birthday: '1998-12-12'
+    category: 'M-14'
+    url_picture:
+    member_type_id: 4

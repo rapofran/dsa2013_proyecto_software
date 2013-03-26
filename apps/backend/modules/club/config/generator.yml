@@ -1,0 +1,43 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Stuff
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          stuff
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   nothing
+
+    config:
+      actions: ~
+      fields:  
+        name_club:   { label: "Club" }
+        address:     { label: "Direccion" }
+        telephone:   { label: "Telefono" }
+        email:       { label: "E-Mail" }
+        description: { label: "Descripción" }
+        latitud:     { label: "Latitud" }
+        longitud:    { label: "Longitud" }
+        story:       { label: "Historia" }
+        rules:       { label: "Reglamento" }
+        contact_us:  { label: "Concactenos" }
+      list:  
+        title: El Club
+        display: [name_club,address,telephone,email]
+        actions:       {}
+        batch_actions: {}
+        object_actions: 
+          _edit: { label: "Editar" }
+      filter:  
+        display: [name_club,address,telephone,email]
+      form:    ~
+      edit:    
+        title: Editar información del Club
+        actions: 
+          _save: { label: "Guardar" }
+          _list: { label: "Volver" }
+      new:     ~
