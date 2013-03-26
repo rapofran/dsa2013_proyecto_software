@@ -1,6 +1,3 @@
-dsa2013_proyecto_software
-=========================
-
 Desarrollo Seguro de Aplicaciones - Trabajo de Proyecto de Software
 -----------
 
